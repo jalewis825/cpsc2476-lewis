@@ -41,9 +41,9 @@ void readWriteConflict(const std::string& filename){
 }
  
 int main() {
-    //writeToFile("example.txt", "First write.\n");
-    //writeToFile("example.txt", "Second write.\n");
+    writeToFile("example.txt", "First write.\n");
+    writeToFile("example.txt", "Second write.\n");
     //simpleRead("input.txt");
-    readWriteConflict("example.txt");
+    //readWriteConflict("example.txt");
     return 0;
 }
